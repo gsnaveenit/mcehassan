@@ -8,5 +8,6 @@ RUN echo "nginx on Fedora" > /usr/share/nginx/html/index.html
 
 EXPOSE 80
 EXPOSE 443
+EXPOSE 8080
 
 CMD [ "/usr/sbin/nginx" ]
